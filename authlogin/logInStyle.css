@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+header{
+    height: 650px;
+}
+.navBar{
+    position: absolute;
+width: 99.7%;
+height: 50px;
+left: 2px;
+top: 0px;
+z-index: 999;
+background: #F5F5F5;
+border-radius: 25px 25px 0px 0px;
+}
+.home{
+ position: absolute;
+width: 140px;
+left: 42px;
+top: -35px;
+font-family: 'Fira Code', monospace;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+color: #000000;
+}
+
+.nav_ul{ 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    
+    text-align: center;
+  }
+  .nav_li{ 
+    display: inline; 
+    position: relative; 
+    margin: 0 50px 0 70px;
+    bottom: 55px;
+    left: 250px;
+  }
+  .nav_a{
+    color: #000000;
+   font-family: 'Fira Code', monospace;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+  
+    position: relative;
+  }
+  .nav_a:after {    
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #000000;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+  }
+  .nav_a:hover:after { 
+    width: 100%; 
+    left: 0;
+    right: 0;
+  }
+  .user{
+    position: absolute;
+    top: 15px;
+    left: 95%;
+    
+  }
+ 
+.vallhala{
+/* 1077466 1 */
+
+position: absolute;
+width: 98%;
+height: 784px;
+left: 0px;
+top: -5px;
+
+
+}
+
+.vallhalaImg{
+  width: 100%;
+}
+.input{
+  border: none;
+  display: block;
+  margin: 10px 0 10px 0;
+  border-radius: 5px;
+  position: absolute;
+  top: 250px;
+  right: 14.8%;
+  border: none;
+  border-radius: 25px;
+  z-index: 999;
+}
+
+.input.Case1{
+  /* Rectangle 7 */
+  width: 25%;
+  height: 47px;
+  background: #E5E5E1;
+  border-radius: 25px;
+  outline: none;
+  position: absolute;
+  top: 250px;
+}
+
+.input.Case2{
+  /* Rectangle 7 */
+  width: 25%;
+  height: 48px;
+  background: #E5E5E1;
+  border-radius: 25px;
+  outline: none;
+  position: absolute;
+  top: 325px;
+}
+
+
+.input.Case1::placeholder{
+  box-shadow: none;
+  font-family: 'Century Gothic';
+  font-weight: 900;
+  font-size: 15px;
+  border-radius: 25px;
+  text-align: center;
+}
+.input.Case2::placeholder{
+  box-shadow: none;
+  font-family: 'Century Gothic';
+  border-radius: 25px;
+  font-weight: 900;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
+    input[type='text'], input[type='password']{
+      font-family: 'Century Gothic';
+      font-size: 15px;
+      font-weight: 900;
+      text-align: center;
+    }
+
+    .inputButton{
+      position: absolute;
+      top: 450px;
+      left: 77%;
+      width: 105px;
+      height: 42px;
+      border-radius: 25px;
+      outline: none;
+      border: none;
+      background-color: #3A3B3C;
+      color: #ffffff;
+      font-size: 15px;
+      font-family: 'Century Gothic';
+      font-weight: 900;
+      transition: all .2s;
+    }
+
+    .inputButton:hover{
+      transform: scale(1.2);
+    }
+
+    .fPass{
+      display: inline;
+      position: absolute;
+      top: 395px;
+      left: 60%;
+      color: #3A3B3C;
+      font-size: 17px;
+      font-family: 'Century Gothic';
+      font-weight: 900; 
+      transition: all .2s;
+      padding: 5px 10px 5px 10px;
+      border-radius: 25px;
+      text-decoration: none;
+    }
+    .fPass:hover{
+      transform: scale(1.2);
+      background-color: #3A3B3C;
+      color: #ffffff;
+    }
+    .signUp{
+      display: inline;
+      position: absolute;
+      top: 505px;
+      left: 63%;
+      color: #F5F5F5;
+      font-size: 17px;
+      font-family: 'Century Gothic';
+      font-weight: 900; 
+      transition: all .2s;
+      padding: 5px 10px 5px 10px;
+      border-radius: 25px;
+      text-decoration: none;
+    }
+    .signUp:hover{
+      transform: scale(1.2);
+      background-color: #3A3B3C;
+      color: #ffffff;
+    }
+
+  .vallhalaImg{
+    width: 1349px;
+  }
+  .footer{
+    position: absolute;
+    background-color: #F5F5F5;
+    color: #958D8D;
+    width: 100%;
+    height: 300px;
+    left: 0;
+    top: 650px;
+
+  }
+
+  .plateforme{
+    position: absolute;
+    left: 6%;
+    top: 70px;    
+
+  }
+  li{
+    margin: 10px 0 10px 0;
+    list-style-type: none;
+    font-family: 'Fira Mono', monospace;
+    font-weight: 900;
+    font-size: 13px;
+  }
+
+  .plateformeT{
+    position: absolute;
+    bottom: 210px;
+    font-family: 'Fira Mono', monospace;
+    
+  }
+  .socialMedia{
+    position: absolute;
+    left: 26%;
+    top: 70px;
+  }
+  .socialMediaT{
+    position: absolute;
+    bottom: 160px;
+    font-family: 'Fira Mono', monospace;
+    width: 150px;
+  }
+  .GBOX{
+    
+      position: absolute;
+      left: 47.4%;
+      top: 70px;
+    
+  }
+  .termPrivacy{
+    position: absolute;
+    left: 67%;
+    top: 50px;
+  }
+  .GBOXT{
+    position: absolute;
+    bottom: 160px;
+    font-family: 'Fira Mono', monospace;
+    width: 150px;
+  }
+
+.aFooter{
+    text-decoration: none;
+    color: #958D8D;
+    transition: all .2s;
+}
+.aFooter:hover{
+  background-color: #3A3B3C;
+  color: #F5F5F5;
+}
+
+.privacy{
+  position: absolute;
+  top: 475px;
+  width: 300px;
+  color: #E5E5E1;
+  left: 820px;
+  font-family: 'Century Gothic';
+  font-weight: 900;
+  font-size: 14px;
+
+}
+.terms{
+  color: #1887DD;
+  text-decoration: none;
+}
+.message{
+  position: absolute;
+  top: 250px;
+  left: 35%;
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+  background-color: #E5E5E1;
+  padding: 25px;
+  border-radius: 25px;
+}

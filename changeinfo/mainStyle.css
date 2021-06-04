@@ -1,0 +1,319 @@
+header{
+    height: 650px;
+}
+.navBar{
+    position: absolute;
+width: 1340px;
+height: 50px;
+left: 2px;
+top: 0px;
+
+background: #F5F5F5;
+border-radius: 25px 25px 0px 0px;
+}
+.home{
+ position: absolute;
+width: 140px;
+left: 42px;
+top: -35px;
+font-family: 'Fira Code', monospace;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+color: #000000;
+}
+
+.nav_ul{ 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    
+    text-align: center;
+  }
+  .nav_li{ 
+    display: inline; 
+    position: relative; 
+    margin: 0 100px 0 100px;
+    bottom: 55px;
+    left: 35.5%;
+  }
+  .nav_a{
+    color: #000000;
+   font-family: 'Fira Code', monospace;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    
+    position: relative;
+  }
+  .nav_a:after {    
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #000000;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+  }
+  .nav_a:hover:after { 
+    width: 100%; 
+    left: 0;
+    right: 0;
+  }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.userConnected{
+  position: absolute;
+  top: 9px;
+  left: 88%;
+  font-family: 'Fira Code', monospace;
+  font-size: 12px;
+  padding: 10px 10px 10px 40px;
+  border-radius: 15px;
+  outline: none;
+  border: transparent;
+  transition: all .2s;
+}
+
+.userImg{
+  position: absolute;
+  top: 15px;
+  left: 88.5%;
+}
+.user{
+  position: absolute;
+  top: 15px;
+  left: 95%;
+  
+}
+.userConnected:hover{
+  background-color: #000000;
+  color: white;
+  transform: scale(1.2);
+}
+.battlefield{
+  position: absolute;
+  width: 100%;
+  top: 50px;
+}
+
+.formChange{
+  position: absolute;
+  width: 400px;
+  left: 12.5%;
+  top: 90px;
+  border-radius: 25px;
+  background-color: #F5F5F5;
+}
+input{
+  position: relative;
+  left: 12.5%;
+  display: block;
+  margin: 50px 0 50px 0;
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-family: 'Century Gothic';
+  font-weight: bold;
+}
+.titleSt{
+  position: relative;
+  left: 11.5%;
+  top: 10px;
+  width: 300px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Fira Code', monospace;
+}
+.change-btn{
+  position: absolute;
+  left: 40%;
+  top: 500px;
+  text-align: center;
+  width: 100px;
+  transition: all .2s;
+}
+.change-btn:hover{
+  background-color: #201919;
+  color: #F5F5F5;
+  transform: scale(1.2);
+}
+.formPassword{
+  position: absolute;
+  width: 400px;
+  left: 60.5%;
+  top: 130px;
+  border-radius: 25px;
+  background-color: #F5F5F5;
+}
+.titleNd{
+  position: relative;
+  left: 11.5%;
+  top: 10px;
+  width: 300px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Fira Code', monospace;
+}
+.logout{
+  position: absolute;
+  left: 53%;
+  top: 550px;
+  font-family: 'Century Gothic';
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #F5F5F5;
+  width: 100px;
+  height: 37px;
+  padding-top: 13px;
+  text-align: center;
+  border-radius: 50px;
+  transition: all .2s;
+}
+.logout:hover{
+  background-color: #201919;
+  color: #F5F5F5;
+  transform: scale(1.2);
+}
+.footer{
+  position: absolute;
+  background-color: #F5F5F5;
+  color: #958D8D;
+  width: 100%;
+  height: 300px;
+  left: 0;
+  top: 650px;
+
+}
+
+.plateforme{
+  position: absolute;
+  left: 6%;
+  top: 70px;    
+
+}
+li{
+  margin: 10px 0 10px 0;
+  list-style-type: none;
+  font-family: 'Fira Mono', monospace;
+  font-weight: 900;
+  font-size: 13px;
+}
+
+.plateformeT{
+  position: absolute;
+  bottom: 210px;
+  font-family: 'Fira Mono', monospace;
+  
+}
+.socialMedia{
+  position: absolute;
+  left: 26%;
+  top: 70px;
+}
+.socialMediaT{
+  position: absolute;
+  bottom: 160px;
+  font-family: 'Fira Mono', monospace;
+  width: 150px;
+}
+.GBOX{
+  
+    position: absolute;
+    left: 47.4%;
+    top: 70px;
+  
+}
+.termPrivacy{
+  position: absolute;
+  left: 67%;
+  top: 50px;
+}
+.GBOXT{
+  position: absolute;
+  bottom: 160px;
+  font-family: 'Fira Mono', monospace;
+  width: 150px;
+}
+
+.aFooter{
+  text-decoration: none;
+  color: #958D8D;
+  transition: all .2s;
+}
+.aFooter:hover{
+background-color: #3A3B3C;
+color: #F5F5F5;
+}
+
+.privacy{
+position: absolute;
+top: 475px;
+width: 300px;
+color: #E5E5E1;
+left: 820px;
+font-family: 'Century Gothic';
+font-weight: 900;
+font-size: 14px;
+
+}
+.terms{
+color: #1887DD;
+text-decoration: none;
+}
+.delete{
+  position: absolute;
+  left: 23%;
+  top: 550px;
+  font-family: 'Century Gothic';
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #F5F5F5;
+  width: 200px;
+  height: 37px;
+  padding-top: 13px;
+  text-align: center;
+  border-radius: 50px;
+  transition: all .2s;
+}
+.delete:hover{
+  background-color: #201919;
+  color: #F5F5F5;
+  transform: scale(1.2);
+}
+.confirm{
+  position: absolute;
+  text-align: center;
+  width: 350px;
+  font-family: 'Century Gothic';
+  padding: 50px;
+  padding-bottom: 100px;
+  background-color: #F5F5F5;
+  border-radius: 25px;
+  top: 200px;
+  left: 7.5%;
+}
+.delete-btn{
+  position: relative;
+  display: inline-block;
+  top: 50px;
+  right: 25%;
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  background-color: #201919;
+  color: #F5F5F5;
+  transition: all .2s;
+}
+.delete-btn:hover{
+  transform: scale(1.2);
+}

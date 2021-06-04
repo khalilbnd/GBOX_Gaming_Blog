@@ -1,0 +1,11 @@
+var element = document.getElementsByClassName("erreur");
+element.innerHTML ="Username is empty please type ";var element = document.getElementsByClassName("erreur");
+element.innerHTML ="Username is empty please type ";
+                                    var element = document.getElementsByClassName("erreur");
+element.innerHTML ="Username is empty please type ";
+var element = document.getElementsByClassName("erreur");
+element.innerHTML ="Username is empty please type ";
+var element = document.getElementsByClassName("erreur");
+element.innerHTML ="Username is empty please type ";
+var element = document.getElementsByClassName("erreur");
+element.innerHTML ="Username is empty please type ";

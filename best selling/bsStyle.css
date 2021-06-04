@@ -1,0 +1,116 @@
+nav{
+    background-color: #F5F5F5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 999;
+}
+
+.home{
+ position: absolute;
+width: 140px;
+left: 42px;
+top: -35px;
+font-family: 'Fira Code', monospace;
+font-weight: bold;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+color: #000000;
+}
+
+.nav_ul{ 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    
+    text-align: center;
+  }
+  .nav_li{ 
+    display: inline; 
+    position: relative; 
+    margin: 0 60px 0 60px;
+    bottom: 55px;
+    left: 250px;
+  }
+  .nav_a{
+    color: #000000;
+   font-family: 'Fira Code', monospace;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+  }
+  .nav_a:after {    
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #000000;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+  }
+  .nav_a:hover:after { 
+    width: 100%; 
+    left: 0;
+    right: 0;
+  }
+  .Introduction{
+      width: 1000px;
+      position: absolute;
+      font-family: 'Fira Code', monospace;
+      left: 11%;
+      top: 250px;
+      background-color: #F5F5F5; 
+    border-radius: 25px;   
+    padding: 25px; 
+    }
+
+  .bold{
+      font-weight: bold;
+  }
+  .redDeadDED{
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+  }
+  .minecraft{
+      border-radius: 25px;
+  }
+  .firstE{
+    position: absolute;
+    top: 850px;
+    left: 75px;
+}
+.title{
+    font-family: 'Fira Code', monospace;
+font-weight: bold;
+font-size: 28px;
+}
+.mineInfo{
+    position: absolute;
+    width: 500px;
+    left: 250px;
+    top: 100px;
+    font-family: 'Fira Code', monospace;
+    font-size: 18px;
+    list-style-type: square;
+}
+.Text{
+    font-family: 'Fira Code', monospace;
+}
+.videoOne{
+    position: absolute;
+    top: 150px;
+    left: 800px;
+    width: 345px;
+    height: 193px;
+    border-radius: 25px;
+    
+}

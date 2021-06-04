@@ -1,0 +1,334 @@
+header{
+    height: 650px;
+}
+.navBar{
+    position: absolute;
+width: 1340px;
+height: 50px;
+left: 2px;
+top: 0px;
+
+background: #F5F5F5;
+border-radius: 25px 25px 0px 0px;
+}
+.home{
+ position: absolute;
+width: 140px;
+left: 42px;
+top: -35px;
+font-family: 'Fira Code', monospace;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+color: #000000;
+}
+
+.nav_ul{ 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    
+    text-align: center;
+  }
+  .nav_li{ 
+    display: inline; 
+    position: relative; 
+    margin: 0 100px 0 100px;
+    bottom: 55px;
+    left: 35.5%;
+  }
+  .nav_a{
+    color: #000000;
+   font-family: 'Fira Code', monospace;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    
+    position: relative;
+  }
+  .nav_a:after {    
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #000000;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+  }
+  .nav_a:hover:after { 
+    width: 100%; 
+    left: 0;
+    right: 0;
+  }
+.cyberpunkImg{
+    position: absolute;
+    width: 1342px;
+    height: 604px;
+    left: 0px;
+    top: 52px;
+    
+    background-image: url(cyberpunk.png);
+
+}
+.caption{
+
+position: absolute;
+width: 1343px;
+height: 199px;
+left: 0px;
+top: 461px;
+color: white;
+font-family: 'Fira Mono', monospace;
+font-size: 40px;
+background: linear-gradient(180deg, rgba(171, 58, 58, 0) 0%, rgba(172, 130, 130, 0.174879) 0.01%, rgba(0, 0, 0, 0.0681818) 0.02%, rgba(6, 6, 6, 0.10694) 8.85%, rgba(12, 11, 11, 0.143418) 8.86%, rgba(41, 33, 33, 0.14918) 14.06%, rgba(7, 7, 7, 0.113779) 14.07%, #201919 100%);
+}
+.fAuthor{
+    font-size: 15px;
+}
+.ftitle{
+    transition: transform .5s;
+}
+.ftitle:hover{
+    transform: scale(1.5);
+}
+
+.pNav{
+    position: relative;
+    top: 100px;
+    right: 11.11%;
+    z-index: 999;
+    margin: 0 10px 0 10px;;
+}
+.nav_li_p{ 
+    display: inline; 
+    position: relative; 
+    margin: 0 40px 0 40px;
+    bottom: 55px;
+    left: 250px;
+  }
+.bar{
+    background-color: #F5F5F5;
+    position: relative;
+    width: 1155px;
+    height: 35px;
+    top: 2px;
+    left: 95px;
+    border-radius: 25px;
+}
+.news{
+    width: 50px;
+    position: relative;
+    top: 15px;
+    left: 75px;
+    font-family: 'Fira Code', monospace;
+    font-size: 36px;
+}
+.apexImg{
+position: absolute;
+width: 350px;
+height: 197px;
+left: 70px;
+top: 880px;
+
+background: url(apex.jpg);
+border-radius: 25px;
+}
+/* Apex Legends closes out this season with five wild new modes By Natalie Clayton 5 hours ago */
+.apexText{
+  position: absolute;
+  width: 380px;
+  height: 229px;
+  left :5.33%;
+  top: 1084px;
+  
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  
+  color: #000000;
+
+}
+
+.Author{
+    font-size: 13px;
+    color: #958D8D;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* 16br--social-ns-performance-news-header-1920x1080-83f48856ac5f 1 */
+.fortniteImg{
+position: absolute;
+width: 350px;
+height: 197px;
+left: 37.63%;
+top: 880px;
+
+background: url(fortnite.jpg);
+border-radius: 25px;
+}
+
+.fortniteText{
+  position: absolute;
+width: 350px;
+height: 219px;
+left: 522px;
+top: 1084px;
+
+font-family: Fira Code;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 20px;
+
+color: #000000;
+
+}
+.userConnected{
+  position: absolute;
+  top: 9px;
+  left: 88%;
+  font-family: 'Fira Code', monospace;
+  font-size: 12px;
+  padding: 10px 10px 10px 40px;
+  border-radius: 15px;
+  outline: none;
+  border: transparent;
+  transition: all .2s;
+}
+
+.userImg{
+  position: absolute;
+  top: 15px;
+  left: 88.5%;
+}
+.user{
+  position: absolute;
+  top: 15px;
+  left: 95%;
+  
+}
+.userConnected:hover{
+  background-color: #000000;
+  color: white;
+  transform: scale(1.2);
+}
+
+.warzoneImg{
+  position: absolute;
+  width: 350px;
+  height: 197px;
+  left: 70px;
+  top: 1200px;
+  
+  background: url(Warzone.jpg);
+  border-radius: 25px;
+  }
+  .warzoneText{
+    position: absolute;
+    width: 380px;
+    height: 229px;
+    left: 5.33%;
+    top: 1410px;
+    
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    
+    color: #000000;
+  
+  }
+  .lastofusImg{
+    position: absolute;
+    width: 350px;
+    height: 197px;
+    left: 37.63%;
+    top: 1200px;
+    
+    background: url(lastofus.jpg);
+    border-radius: 25px;
+    }
+    .lastofusText{
+      position: absolute;
+      width: 380px;
+      height: 229px;
+      left: 37.63%;
+      top: 1410px;
+      
+      font-family: Fira Code;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 20px;
+      
+      color: #000000;
+    
+    }
+    .residentevilImg{
+      position: absolute;
+      width: 350px;
+      height: 197px;
+      left : 5.33%;
+      top: 1540px;
+      
+      background: url(residentevil.jpg);
+      border-radius: 25px;
+      }
+      .residentevilText{
+        position: absolute;
+        width: 380px;
+        height: 229px;
+        left: 5.33%;
+        top: 1750px;
+        
+        font-family: Fira Code;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 20px;
+        
+        color: #000000;
+      
+      }
+      .suicidesquadImg{
+        position: absolute;
+        width: 350px;
+        height: 197px;
+        left: 37.63%;
+        top: 1540px;
+        
+        background: url(suicidesquad.jpg);
+        border-radius: 25px;
+        }
+        .suicidesquadText{
+          position: absolute;
+          width: 380px;
+          height: 229px;
+          left: 37.63%;
+          top: 1750px;
+          
+          font-family: Fira Code;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 20px;
+          
+          color: #000000;
+        
+        }
+        .horizontal{
+          position: absolute;
+          top: 880px;
+          right: 33%;
+          width: 1px;
+          height: 1000px;
+          background-color: #958D8D;
+          opacity: 25%;
+        }
