@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+    height:150px;
+}
+.navBar{
+    position: absolute;
+width: 1340px;
+height: 50px;
+left: 2px;
+top: 0px;
+
+background: #F5F5F5;
+border-radius: 25px 25px 0px 0px;
+}
+.home{
+ position: absolute;
+width: 140px;
+left: 42px;
+top: 0;
+font-family: 'Fira Code', monospace;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+color: #000000;
+font-weight: bold;
+}
+
+.nav_ul{ 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    
+    text-align: center;
+  }
+  .nav_li{ 
+    display: inline; 
+    position: relative; 
+    margin: 0 100px 0 100px;
+    bottom: 40px;
+    left: 35.5%;
+  }
+  .nav_a{
+    color: #000000;
+   font-family: 'Fira Code', monospace;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+  }
+  .nav_a:after {    
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #000000;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+  }
+  .nav_a:hover:after { 
+    width: 100%; 
+    left: 0;
+    right: 0;
+  }
+.videoList{
+  display: grid;
+  position: relative;
+  top: 20%;
+  left: 6%;
+  grid-template-columns: 50% auto;
+  width: 1200px;
+}
+.video{
+  width: 500px;
+  height: 270px;
+  border-radius: 25px;
+}
+.videoCase{
+  width: 500px;
+}
+h2{
+  position: relative;
+  width: 400px;
+  left: 9%;
+  margin: 20px 0 120px 0;
+  font-family: 'Fira Code', monospace;
+  font-size: 15px;
+  text-align: center;
+}
+.view{
+  position: absolute;
+  bottom: 50px;
+  left: 45%;
+  top: 2100px;
+  font-family: 'Fira Code', monospace;
+  font-weight: bolder;
+  transition: all .2s ease-in-out;
+}
+.view:hover{
+  transform: scale(1.2);
+
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+        .footer{
+          position: absolute;
+          background-color: #1f1e1e;
+          color: white;
+          width: 100%;
+          height: 300px;
+          left: 0;
+          top: 2200px;
+          
+        }
+      
+        .plateforme{
+          position: absolute;
+          left: 6%;
+          top: 70px;    
+      
+        }
+        li{
+          margin: 10px 0 10px 0;
+          list-style-type: none;
+          font-family: 'Fira Mono', monospace;
+          font-weight: 900;
+          font-size: 13px;
+        }
+      
+        .plateformeT{
+          position: absolute;
+          bottom: 210px;
+          font-family: 'Fira Mono', monospace;
+          
+        }
+        .socialMedia{
+          position: absolute;
+          left: 26%;
+          top: 70px;
+        }
+        .socialMediaT{
+          position: absolute;
+          bottom: 160px;
+          font-family: 'Fira Mono', monospace;
+          width: 150px;
+        }
+        .GBOX{
+          
+            position: absolute;
+            left: 47.4%;
+            top: 70px;
+          
+        }
+        .termPrivacy{
+          position: absolute;
+          left: 67%;
+          top: 50px;
+        }
+        .GBOXT{
+          position: absolute;
+          bottom: 110px;
+          font-family: 'Fira Mono', monospace;
+          width: 150px;
+        }
+      
+      .aFooter{
+          text-decoration: none;
+          color: #958D8D;
+          transition: all .2s;
+      }
+      .aFooter:hover{
+        background-color: white;
+        color: black;
+      }
+      
+      .privacy{
+        position: absolute;
+        top: 475px;
+        width: 300px;
+        color: #E5E5E1;
+        left: 820px;
+        font-family: 'Century Gothic';
+        font-weight: 900;
+        font-size: 14px;
+      
+      }
+      .terms{
+        color: #1887DD;
+        text-decoration: none;
+      }
+      .message{
+        position: absolute;
+        top: 250px;
+        left: 35%;
+        text-align: center;
+        font-family: 'Fira Code', monospace;
+        background-color: #E5E5E1;
+        padding: 25px;
+        border-radius: 25px;
+      }
+      

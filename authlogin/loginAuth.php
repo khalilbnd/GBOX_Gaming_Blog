@@ -13,15 +13,15 @@
         if($count > 0){
             session_start();
             $_SESSION['username'] = $user;
-         $file = fopen("..\infopers\user.php", "w") or die ("Unable to open file");
+            $file = fopen("..\infopers\user.php", "w") or die ("Unable to open file");
 
-             $text ='<?php
-             echo \'<a href="/changeinfo/change.php"><span class="userConnected">' . $user . '</span><img src="user.png" alt="Account" width="20" height="20" class="userImg"></a>\';
-             ?>';
-          
-                 fwrite($file, $text);
-                 fclose($file);
-                 header('Location: \home\main.php');
+            $text ='<?php
+            echo \'<a href="/changeinfo/change.php"><span class="userConnected">' . $user . '</span><img src="photo/user.png" alt="Account" width="20" height="20" class="userImg"></a>\';
+            ?>';
+         
+                fwrite($file, $text);
+                fclose($file);
+                header('Location: \home\main.php');
         }
         else{
            header('Location: loginerror.php');
