@@ -10,7 +10,7 @@ header{
     position: absolute;
 width: 100%;
 height: 50px;
-left: 2px;
+
 top: 0px;
 
 background: #F5F5F5;
@@ -39,9 +39,9 @@ font-weight: bold;
   .nav_li{ 
     display: inline; 
     position: relative; 
-    margin: 0 100px 0 100px;
+    margin: 0 120px 0 120px;
     bottom: 40px;
-    left: 35.5%;
+    left: 250px;
   }
   .nav_a{
     color: #000000;

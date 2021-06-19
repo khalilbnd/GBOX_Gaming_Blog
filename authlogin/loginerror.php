@@ -8,23 +8,21 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Fira+Mono:wght@700&family=Francois+One&display=swap" rel="stylesheet"> 
-        </head>
+        <link rel="icon" " href="../photo/control.png">    
+    </head>
     <body>
         <header>
             <div class="navBar">
                
                 <nav>
-                    <img src="control.jpg" height="50" width="55" style="right: 14;">
-                    <p class ="home">GBOX</p>
+                <img src="../photo/control.png" style="position: relative; bottom: 5px; left: 10px;" width="55" height="50">                    <p class ="home">GBOX</p>
                     <ul class="nav_ul">
                         <li class ="nav_li"><a href="#" class="nav_a">News</a></li>
-                        <li class ="nav_li"><a href="#" class="nav_a">Reviews</a></li>
+                       
                         <li class ="nav_li"><a href="#" class="nav_a">Best Selling</a></li>
                         <li class ="nav_li"><a href="#" class="nav_a">Videos</a></li>
-                        <li class ="nav_li"><a href="#" class="nav_a">Forum</a></li>
-
+                        
                     </ul>
-                    <div class="user"><a href="#"><img src="user-solid.svg" alt="Account" width="20" height="20"></a></div>
                 </nav>
                 </div>
                 </header>
@@ -39,7 +37,6 @@
             
                                
                                 <img src="vallhala.jpg" class="vallhalaImg" >
-                                <a href="#" class="fPass">Forgot Password ?</a>
                                 <a href="SignUp.php" class="signUp">You don't have an account ?</a>
                             </div>
                             <footer>

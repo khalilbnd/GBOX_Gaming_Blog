@@ -8,20 +8,18 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Fira+Mono:wght@700&family=Francois+One&display=swap" rel="stylesheet"> 
-        </head>
+        <link rel="icon" " href="../photo/control.png">    
+    </head>
     <body>
         <header>
             <div class="navBar">
                
                 <nav>
-                    <img src="control.jpg" height="50" width="55" style="right: 14;">
-                    <p class ="home">GBOX</p>
+                <img src="../photo/control.png" style="position: relative; bottom: 5px; left: 10px;" width="55" height="50">                    <p class ="home">GBOX</p>
                     <ul class="nav_ul">
                         <li class ="nav_li"><a href="#" class="nav_a">News</a></li>
-                        <li class ="nav_li"><a href="#" class="nav_a">Reviews</a></li>
                         <li class ="nav_li"><a href="#" class="nav_a">Best Selling</a></li>
                         <li class ="nav_li"><a href="#" class="nav_a">Videos</a></li>
-                        <li class ="nav_li"><a href="#" class="nav_a">Forum</a></li>
 
                     </ul>
                     
@@ -59,10 +57,8 @@
                                 </ul>  
                                 <ul class="GBOX"><span class="GBOXT">GBOX</span>
                                     <li><a href="#" class="aFooter">News</a></li>
-                                    <li><a href="#" class="aFooter">Reviews</a></li>
                                     <li><a href="#" class="aFooter">Best Selling</a></li>
                                     <li><a href="#" class="aFooter">Videos</a></li>
-                                    <li><a href="#" class="aFooter">Forum</a></li>
                                 </ul>  
                                 <ul class="termPrivacy">
                                     <li><a href="#" class="aFooter">About US</a></li>

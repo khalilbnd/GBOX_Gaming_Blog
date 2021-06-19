@@ -16,7 +16,7 @@
             $file = fopen("..\infopers\user.php", "w") or die ("Unable to open file");
 
             $text ='<?php
-            echo \'<a href="/changeinfo/change.php"><span class="userConnected">' . $user . '</span><img src="photo/user.png" alt="Account" width="20" height="20" class="userImg"></a>\';
+            echo \'<a href="/changeinfo/change.php"><span class="userConnected">' . $user . '</span><img src="../photo/user.png" alt="Account" width="20" height="20" class="userImg"></a>\';
             ?>';
          
                 fwrite($file, $text);

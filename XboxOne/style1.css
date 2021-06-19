@@ -1,0 +1,278 @@
+:root {
+  font-size: 16px;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+body {
+  font-family: "Fira Code", monospace;
+  font-size: 1.5rem;
+  line-height: 1.968125rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+}
+a {
+   text-decoration: none;
+}
+#main .countainer {
+   margin-inline: auto;
+   width: min(80%, 80rem );
+}
+.navBar{
+   position: absolute;
+width: 100%;
+height: 50px;
+left: 2px;
+top: 0px;
+z-index: 999;
+background: #F5F5F5;
+border-radius: 25px 25px 0px 0px;
+font-weight: bold;
+}
+.anchor{
+ text-decoration: none;
+ color: #000000;
+}
+.home{
+position: absolute;
+width: 140px;
+left: 42px;
+top: 0px;
+font-family: 'Fira Code', monospace;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+color: #00AE1C;
+}
+
+.nav_ul{ 
+   padding: 0; 
+   list-style: none; 
+   display: table;
+   
+   text-align: center;
+ }
+ .nav_li{ 
+   display: inline; 
+   position: relative; 
+   margin: 0 120px 0 120px;
+   bottom: 75px;
+   left: 250px;
+ }
+ .nav_a{
+   color: #000000;
+  font-family: 'Fira Code', monospace;
+   text-decoration: none;
+   font-size: 15px;
+   display: inline-block;
+   text-decoration: none;
+ 
+   position: relative;
+ }
+ .nav_a:after {    
+   bottom: 0;
+   content: "";
+   display: block;
+   height: 2px;
+   left: 50%;
+   position: absolute;
+   background: #000000;
+   transition: width 0.3s ease 0s, left 0.3s ease 0s;
+   width: 0px;
+ }
+ .nav_a:hover:after { 
+   width: 100%; 
+   left: 0;
+   right: 0;
+ }
+ .userConnected{
+   position: absolute;
+   top: 10px;
+   left: 88%;
+   font-family: 'Fira Code', monospace;
+   font-size: 12px;
+   padding: 0px 10px 10px 40px;
+   border-radius: 15px;
+   outline: none;
+   border: transparent;
+   transition: all .2s;
+   color: #000000;
+   height: 20px;
+  
+ }
+ .userImg{
+   position: absolute;
+   top: 15px;
+   left: 88.5%;
+ }
+ .user{
+   position: absolute;
+   top: 15px;
+   left: 95%;
+   
+ }
+ .userConnected:hover{
+   background-color: #000000;
+   color: white;
+   transform: scale(1.2);
+ }
+
+
+#main {
+  background-color: #201f24;
+  display: block;
+  color: white;
+  height: 240rem;
+}  
+#main .blop {
+   position: absolute;
+   width: 41rem;
+   height: 41rem;
+   left: 30rem;
+   top: 3rem;
+
+}
+#main .info {
+   position: relative;
+   top: -10rem;
+   left: -15rem;
+}
+#main .price {
+   position: relative;
+   top: 15rem;
+   left:-30rem;
+}
+#main .console img{
+   position:relative;
+   top: 3rem;
+
+}
+#main .xbox h1 {
+  font-size: 7.5rem;
+  line-height: 10.6181rem;
+  color: white;
+}
+#main .xbox h3 {
+  font-size: 2.1875rem;
+  line-height: 2.7881rem;
+  color: white;
+}
+#main .split {
+   position: relative;
+   display: flex;
+   align-items:center;
+   top: 1rem;
+}
+#main .arrow-down {
+   position: relative;
+   top: 3rem;
+   left: 29rem;
+}
+
+#main .cut {
+   position: relative;
+   color: white;
+   font-style: italic;
+   top: 10rem;
+   left: 19rem;
+}
+
+ #articles {
+   position: relative;
+   top: 15rem;
+}
+#articles a {
+   text-decoration: none;
+   color: #00AE1C;
+}
+#articles a:hover {
+   text-decoration: underline;
+   font-weight: 700;
+   
+}
+
+#articles .article .split img {
+   width: 36.4rem;
+   height: 29.28rem;
+}
+#articles h3 {
+   font-weight: 700;
+   color: #00AE1C;
+}
+
+ .article .author {
+    font-style: italic;
+   color: rgba(255, 255, 255, 0.322);
+}
+
+#articles .article {
+   margin-bottom: 4rem;
+}
+#articles img {
+   margin-right: 2rem;
+}
+
+#articles  .split {
+   display: flex;
+   align-items:stretch;
+}
+
+#footer {
+   height: 30.43rem;
+   
+
+}
+#footer a {
+   text-decoration: none;
+   color: #958D8D ;
+   font-weight: 700;
+   font-size: 18px;
+}
+#footer .wrapper{
+  position: relative;
+  top: 7.25rem;
+  padding-left: 75px;
+}
+#footer h4 {
+  font-family: "Fira Code", monospace;
+  font-weight: 700;
+}
+#footer h5{
+  text-align: center;
+  font-weight: 700;
+ 
+}
+
+#footer .split4 {
+  display: flex;
+	justify-content: space-between;
+	align-items:center;
+	align-content: center;
+}
+.two h4{
+   position: relative;
+   top: -2rem;
+}
+.three h4 {
+   position: relative;
+   top: -2rem;
+}
+.one , .two, .three, .four {
+  flex: 1;
+}
+
+#main .arrow-up {
+   position: fixed;
+   bottom: 0rem;
+   right: 8rem;
+
+}

@@ -33,9 +33,9 @@ color: #000000;
   .nav_li{ 
     display: inline; 
     position: relative; 
-    margin: 0 100px 0 100px;
-    bottom: 55px;
-    left: 35.5%;
+    margin: 0 120px 0 120px;
+    bottom: 40px;
+    left: 250px;
   }
   .nav_a{
     color: #000000;
@@ -136,7 +136,7 @@ input{
 }
 .change-btn{
   position: absolute;
-  left: 40%;
+  left: 49%;
   top: 500px;
   text-align: center;
   width: 100px;
@@ -166,15 +166,15 @@ input{
 }
 .logout{
   position: absolute;
-  left: 53%;
-  top: 550px;
+  left: 58%;
+  top: 500px;
   font-family: 'Century Gothic';
   font-size: 14px;
   font-weight: bold;
   background-color: #F5F5F5;
   width: 100px;
-  height: 37px;
-  padding-top: 13px;
+  
+  
   text-align: center;
   border-radius: 50px;
   transition: all .2s;
@@ -186,12 +186,12 @@ input{
 }
 .footer{
   position: absolute;
-  background-color: #F5F5F5;
-  color: #958D8D;
+  background-color: #1f1e1e;
+  color: white;
   width: 100%;
   height: 300px;
   left: 0;
-  top: 650px;
+  top: 775px;
 
 }
 
@@ -240,7 +240,7 @@ li{
 }
 .GBOXT{
   position: absolute;
-  bottom: 160px;
+  bottom: 110px;
   font-family: 'Fira Mono', monospace;
   width: 150px;
 }
@@ -251,8 +251,8 @@ li{
   transition: all .2s;
 }
 .aFooter:hover{
-background-color: #3A3B3C;
-color: #F5F5F5;
+background-color: white;
+color: black;
 }
 
 .privacy{
@@ -270,17 +270,38 @@ font-size: 14px;
 color: #1887DD;
 text-decoration: none;
 }
+.message{
+position: absolute;
+top: 250px;
+left: 35%;
+text-align: center;
+font-family: 'Fira Code', monospace;
+background-color: #E5E5E1;
+padding: 25px;
+border-radius: 25px;
+}
+
+.notFound{
+  position: absolute;
+  top: 200px;
+  left: 62%;
+  font-family: 'Century Gothic';
+  font-weight: bold;
+  background-color: rgb(187,20,20);
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+}
 .delete{
   position: absolute;
-  left: 23%;
-  top: 550px;
+  left: 40%;
+  top: 500px;
   font-family: 'Century Gothic';
   font-size: 14px;
   font-weight: bold;
   background-color: #F5F5F5;
-  width: 200px;
-  height: 37px;
-  padding-top: 13px;
+  width: 100px;
+ 
   text-align: center;
   border-radius: 50px;
   transition: all .2s;
@@ -306,7 +327,7 @@ text-decoration: none;
   position: relative;
   display: inline-block;
   top: 50px;
-  right: 25%;
+  right: 0%;
   padding: 10px;
   border-radius: 25px;
   font-weight: bold;

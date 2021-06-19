@@ -11,7 +11,7 @@
     $npass = $_POST['newPassword'];
     
     
-
+if(isset($_POST["change"])){
     if(!empty($fullname)){
         $query = "UPDATE users SET fullname=? WHERE username =?";
        $statement = $con->prepare($query);
@@ -46,3 +46,9 @@
     }
     header('Location: change.php');
     exit(); 
+}
+if(isset($_POST["logout"]))
+    echo '<script type="text/javascript">document.location ="/authlogin/logout.php";</script>';
+
+    if(isset($_POST["delete"]))
+    echo '<script type="text/javascript">document.location ="delete.php";</script>';

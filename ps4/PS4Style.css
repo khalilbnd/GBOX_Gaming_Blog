@@ -1,0 +1,315 @@
+header{
+    height: 650px;
+}
+.navBar{
+    position: absolute;
+width: 100%;
+height: 50px;
+left: 2px;
+top: 0px;
+z-index: 999;
+background: #F5F5F5;
+border-radius: 25px 25px 0px 0px;
+}
+.anchor{
+  text-decoration: none;
+  color: #000000;
+
+}
+.home{
+ position: absolute;
+width: 140px;
+left: 42px;
+top: -35px;
+font-family: 'Fira Code', monospace;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+color: blue;
+}
+
+.nav_ul{ 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    
+    text-align: center;
+  }
+  .nav_li{ 
+    display: inline; 
+    position: relative; 
+    margin: 0 120px 0 120px;
+    bottom: 55px;
+    left: 250px;
+  }
+  .nav_a{
+    color: #000000;
+   font-family: 'Fira Code', monospace;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+  
+    position: relative;
+  }
+  .nav_a:after {    
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #000000;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+  }
+  .nav_a:hover:after { 
+    width: 100%; 
+    left: 0;
+    right: 0;
+  }
+  .userConnected{
+    position: absolute;
+    top: 9px;
+    left: 88%;
+    font-family: 'Fira Code', monospace;
+    font-size: 12px;
+    padding: 10px 10px 10px 40px;
+    border-radius: 15px;
+    outline: none;
+    border: transparent;
+    transition: all .2s;
+    color: #000000;
+  }
+  
+  .userImg{
+    position: absolute;
+    top: 15px;
+    left: 88.5%;
+  }
+  .user{
+    position: absolute;
+    top: 15px;
+    left: 95%;
+    
+  }
+  .userConnected:hover{
+    background-color: #000000;
+    color: white;
+    transform: scale(1.2);
+  }
+  .ps5Img{
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+  }
+  .gradient{
+    position: absolute;
+    width: 1350px;
+    height: 179px;
+    left: 0px;
+    top: 402px;
+    
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, rgba(116, 116, 116, 0.258999) 66.67%, rgba(95, 95, 95, 0.326524) 99.96%, rgba(53, 53, 53, 0.464606) 99.97%, rgba(27, 27, 27, 0.547703) 99.98%, rgba(0, 0, 0, 0.635417) 99.99%, #C4C4C4 100%);
+    }
+.ps5Text{
+      /* Sony PlayStation 5 : prix, fiche technique, test et actualité - Consoles */
+
+  position: absolute;
+  width: 569px;
+  height: 74px;
+  left: 719px;
+  top: 156px;
+
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+  text-align: center;
+
+  color: #000000;
+
+
+      }
+
+      .mostRec{
+
+        position: absolute;
+        width: 499px;
+        height: 89px;
+        left: 52px;
+        top: 600px;
+        
+        font-family: 'Fira Code', monospace;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 37px;
+        line-height: 63px;
+        
+        color: #000000;
+        }
+        .image{
+        width: 425px;
+        height: 239px;
+        
+        
+        
+        border-radius: 25px;
+        
+        }
+        .articles{
+          display: grid;
+          position: absolute;
+          top: 750px;
+          padding-left: 50px;
+        }
+        .text,.author{
+          left: 35%;
+          position: relative;
+          bottom: 200px;
+          display: inline-block;
+          
+          width: 836px;
+          font-size: 18px;
+          font-family: 'Fira Code', monospace;
+          
+        }
+        .title{
+          position: relative;
+          display:inline-block;
+          left: 2%;
+          margin-bottom: 20px;
+          bottom: 200px;
+          width: 836px;
+          font-family: 'Fira Code', monospace;
+          font-size: 25px;
+          font-weight: 900;
+        }
+        
+        .content{
+          grid-template-columns: 10%;
+        }
+        .author{
+          color: gray;
+          font-weight: bold;
+          margin-top: 20px;
+        }
+        .view{
+          position: relative;
+          left: 43%;
+          bottom: 60px;
+          font-size: 20px;
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+          font-family: 'Fira Code', monospace;
+          transition: all .2s;
+          width: 110px;
+          padding: 15px;
+          border-radius: 25px;
+        }
+        .view:hover{
+          background-color: #201919;
+          color: white;
+          transform: scale(1.2);
+        }
+        
+        
+        .footer{
+          position: absolute;
+          background-color: #1f1e1e;
+          color: white;
+          width: 100%;
+          height: 300px;
+          left: 0;
+          top: 2600px;
+        
+        }
+        
+        .plateforme{
+          position: absolute;
+          left: 6%;
+          top: 70px;    
+        
+        }
+        li{
+          margin: 10px 0 10px 0;
+          list-style-type: none;
+          font-family: 'Fira Mono', monospace;
+          font-weight: 900;
+          font-size: 13px;
+        }
+        
+        .plateformeT{
+          position: absolute;
+          bottom: 210px;
+          font-family: 'Fira Mono', monospace;
+          
+        }
+        .socialMedia{
+          position: absolute;
+          left: 26%;
+          top: 70px;
+        }
+        .socialMediaT{
+          position: absolute;
+          bottom: 160px;
+          font-family: 'Fira Mono', monospace;
+          width: 150px;
+        }
+        .GBOX{
+          
+            position: absolute;
+            left: 47.4%;
+            top: 70px;
+          
+        }
+        .termPrivacy{
+          position: absolute;
+          left: 67%;
+          top: 50px;
+        }
+        .GBOXT{
+          position: absolute;
+          bottom: 110px;
+          font-family: 'Fira Mono', monospace;
+          width: 150px;
+        }
+        
+        .aFooter{
+          text-decoration: none;
+          color: #958D8D;
+          transition: all .2s;
+        }
+        .aFooter:hover{
+        background-color: white;
+        color: black;
+        }
+        
+        .privacy{
+        position: absolute;
+        top: 475px;
+        width: 300px;
+        color: #E5E5E1;
+        left: 820px;
+        font-family: 'Century Gothic';
+        font-weight: 900;
+        font-size: 14px;
+        
+        }
+        .terms{
+        color: #1887DD;
+        text-decoration: none;
+        }
+        .message{
+        position: absolute;
+        top: 250px;
+        left: 35%;
+        text-align: center;
+        font-family: 'Fira Code', monospace;
+        background-color: #E5E5E1;
+        padding: 25px;
+        border-radius: 25px;
+        }
+        

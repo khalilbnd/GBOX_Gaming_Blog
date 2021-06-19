@@ -35,8 +35,8 @@ color: #000000;
   .nav_li{ 
     display: inline; 
     position: relative; 
-    margin: 0 50px 0 70px;
-    bottom: 55px;
+    margin: 0 120px 0 120px;
+    bottom: 40px;
     left: 250px;
   }
   .nav_a{
@@ -330,18 +330,18 @@ top: -5px;
   }
   .footer{
     position: absolute;
-    background-color: #F5F5F5;
-    color: #958D8D;
+    background-color: #1f1e1e;
+    color: white;
     width: 100%;
     height: 300px;
     left: 0;
-    top: 750px;
+    top: 775px;
 
   }
 
   .plateforme{
     position: absolute;
-    left: 4.4%;
+    left: 6%;
     top: 70px;    
 
   }
@@ -379,12 +379,12 @@ top: -5px;
   }
   .termPrivacy{
     position: absolute;
-    left: 69%;
+    left: 67%;
     top: 50px;
   }
   .GBOXT{
     position: absolute;
-    bottom: 160px;
+    bottom: 110px;
     font-family: 'Fira Mono', monospace;
     width: 150px;
   }
@@ -395,16 +395,16 @@ top: -5px;
     transition: all .2s;
 }
 .aFooter:hover{
-  background-color: #3A3B3C;
-  color: #F5F5F5;
+  background-color: white;
+  color: black;
 }
 
 .privacy{
   position: absolute;
-  top: 550px;
+  top: 475px;
   width: 300px;
   color: #E5E5E1;
-  left: 59.5%;
+  left: 820px;
   font-family: 'Century Gothic';
   font-weight: 900;
   font-size: 14px;
@@ -413,6 +413,16 @@ top: -5px;
 .terms{
   color: #1887DD;
   text-decoration: none;
+}
+.message{
+  position: absolute;
+  top: 250px;
+  left: 35%;
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+  background-color: #E5E5E1;
+  padding: 25px;
+  border-radius: 25px;
 }
 
 

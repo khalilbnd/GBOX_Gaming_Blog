@@ -1,0 +1,335 @@
+:root {
+  font-size: 16px;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+body {
+  font-family: "Fira Code", monospace;
+  font-size: 1.5rem;
+  line-height: 1.968125rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+}
+a {
+   text-decoration: none;
+}
+#main .countainer {
+   margin-inline: auto;
+   width: min(80%, 80rem );
+}
+#header,
+#footer {
+  background-color: #f5f5f5;
+
+}
+.navBar{
+   position: absolute;
+width: 100%;
+height: 50px;
+left: 2px;
+top: 0px;
+z-index: 999;
+background: #F5F5F5;
+border-radius: 25px 25px 0px 0px;
+font-weight: bold;
+}
+.anchor{
+ text-decoration: none;
+ color: #000000;
+}
+.home{
+position: absolute;
+width: 140px;
+left: 42px;
+top: 0px;
+font-family: 'Fira Code', monospace;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+color: #00AE1C;
+}
+
+.nav_ul{ 
+   padding: 0; 
+   list-style: none; 
+   display: table;
+   
+   text-align: center;
+ }
+ .nav_li{ 
+   display: inline; 
+   position: relative; 
+   margin: 0 120px 0 120px;
+   bottom: 75px;
+   left: 250px;
+ }
+ .nav_a{
+   color: #000000;
+  font-family: 'Fira Code', monospace;
+   text-decoration: none;
+   font-size: 15px;
+   display: inline-block;
+   text-decoration: none;
+ 
+   position: relative;
+ }
+ .nav_a:after {    
+   bottom: 0;
+   content: "";
+   display: block;
+   height: 2px;
+   left: 50%;
+   position: absolute;
+   background: #000000;
+   transition: width 0.3s ease 0s, left 0.3s ease 0s;
+   width: 0px;
+ }
+ .nav_a:hover:after { 
+   width: 100%; 
+   left: 0;
+   right: 0;
+ }
+ .userConnected{
+   position: absolute;
+   top: 10px;
+   left: 88%;
+   font-family: 'Fira Code', monospace;
+   font-size: 12px;
+   padding: 0px 10px 10px 40px;
+   border-radius: 15px;
+   outline: none;
+   border: transparent;
+   transition: all .2s;
+   color: #000000;
+   height: 20px;
+  
+ }
+ .userImg{
+   position: absolute;
+   top: 15px;
+   left: 88.5%;
+ }
+ .user{
+   position: absolute;
+   top: 15px;
+   left: 95%;
+   
+ }
+ .userConnected:hover{
+   background-color: #000000;
+   color: white;
+   transform: scale(1.2);
+ }
+
+#header .countainer {
+   display: flex;
+   align-items: center;
+   height: 3.5rem;
+}
+
+#header #logo {
+   position: absolute;
+   top: 0.0625rem;
+   
+}
+
+#header a{
+   margin-left: 1.6rem;
+   color: black;
+   text-decoration: none;
+   font-weight: 700;
+}
+#header #nav-bar{
+   position: absolute;
+   font-size: 1.25rem;
+   top: 1rem;
+   
+}
+#header #user{
+   position: absolute;
+   top: 1.43rem;
+
+}
+
+#header .split {
+   display: flex;
+   align-items: center;
+	align-content: center;
+}
+ #haeder .split >* {
+   flex: 1 1 1;
+}
+#header .split1 {
+  width: 11.625rem;
+}
+#header .split2 {
+  width: 42.18rem;
+  margin-left:15.125rem;
+  margin-right: 3.125rem;
+}
+#header .split3 {
+  width: 3.125rem;
+}
+
+#main {
+  background-color: #201f24;
+  display: block;
+  color: white;
+  height: 231rem;
+}
+#main .title{
+   margin-top: 0rem;
+}
+#main .title h3{
+      text-decoration: underline;
+      font-size: 2rem;
+      line-height: 3rem;
+      color: #00AE1C;
+}
+#main .title h1{
+   font-size: 4rem;
+   line-height: 6rem;
+}
+#main .title h4 , 
+#main .title h5{
+   font-style: italic;
+   font-weight: normal;
+   color:rgba(255, 255, 255, 0.322) ;
+   margin-bottom: 0.625rem;
+   margin-top: 0rem;
+}
+
+
+#main p {
+   font-size: 1.25rem;
+   line-height: 2.25rem;
+   text-indent: 2rem;
+}
+#main .article  img{
+   position: relative;
+   width: 59rem;
+   height: 32.625rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   left: 2rem;
+
+}
+#main  video {
+   position: relative;
+    width: 59rem;
+   height: 32.625rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   left: 2rem;
+   border-radius: 2rem;
+}
+#main .screenshots img {
+   position: relative;
+   margin: 0.5rem;
+}
+#main .screenshots h3{
+   border-top: 2px, solid, #00AE1C;
+   color: #00AE1C;
+}
+#main .screenshots .split {
+   position: relative;
+   left: 2rem;
+}
+#main .review {
+   position: relative;
+   width: 26.75rem;
+   top: 6rem;
+   margin-left: auto;
+  margin-right: auto;
+}
+#main .review .split a {
+   color: white;
+}
+#main .review .split{
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+  
+}
+#main .review .split > * {
+   flex: 1 1 ;
+}
+#main .review .split1{
+   margin-right: 1rem;
+}
+#main .review .split1,
+#main .review .split2{
+   text-align: center;
+   border-radius: 3rem;
+   background-color: #00AE1C;
+   padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+   height: 30.43rem;
+}
+#footer a {
+   text-decoration: none;
+   color: #958D8D ;
+}
+#footer .wrapper{
+  position: relative;
+  top: 7.25rem;
+  padding-left: 75px;
+}
+#footer h4 {
+  font-family: "Fira Code", monospace;
+  font-weight: 700;
+}
+#footer h5{
+  text-align: center;
+  font-weight: 700;
+}
+
+#footer .split4 {
+  display: flex;
+	justify-content: space-between;
+	align-items:center;
+	align-content: center;
+}
+.two h4{
+   position: relative;
+   top: -2rem;
+}
+.three h4 {
+   position: relative;
+   top: -2rem;
+}
+.one , .two, .three, .four {
+  flex: 1;
+}
+
+#main .arrow-up {
+   position: fixed;
+   bottom: 0rem;
+   right: 8rem;
+
+}

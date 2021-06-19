@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Francois+One&display=swap');
+body {
+    margin: 0;
+    font-family: 'Francois one','Fira Code','Centeury gothic';
+    background-color: #000000;
+}
+p,h1,h5,h4,h2 {
+  color: #FFFAFA;
+}
+
+p {
+    text-indent: 50px;
+}
+
+.container h2{
+    color: #050000;
+}
+
+
+p {
+  margin: 0 0 1em 0;
+}
+
+h3{
+    color:#958D8D;
+}
+span{
+     color:#FC8C09;
+}
+.navBar{
+    position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 2px;
+  top: 0px;
+  z-index: 999;
+  background: #F5F5F5;
+  border-radius: 25px 25px 0px 0px;
+  font-weight: bold;
+  }
+  .anchor{
+  text-decoration: none;
+  color: #000000;
+  }
+  .home{
+  position: absolute;
+  width: 140px;
+  left: 25px;
+  top: 0px;
+  font-family: 'Fira Code', monospace;
+  font-size: 36px;
+  line-height: 47px;
+  text-align: center;
+  color: #00AE1C;
+  }
+  
+  .nav_ul{ 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    
+    text-align: center;
+  }
+  .nav_li{ 
+    display: inline; 
+    position: relative; 
+    margin: 0 120px 0 120px;
+    bottom: 44px;
+    left: 250px;
+  }
+  .nav_a{
+    color: #000000;
+   font-family: 'Fira Code', monospace;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+  
+    position: relative;
+  }
+  .nav_a:after {    
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #000000;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+  }
+  .nav_a:hover:after { 
+    width: 100%; 
+    left: 0;
+    right: 0;
+  }
+  .userConnected{
+    position: absolute;
+    top: 9px;
+    left: 88%;
+    font-family: 'Fira Code', monospace;
+    font-size: 12px;
+    padding: 10px 10px 10px 40px;
+    border-radius: 15px;
+    outline: none;
+    border: transparent;
+    transition: all .2s;
+    color: #000000;
+  }
+  
+  .userImg{
+    position: absolute;
+    top: 15px;
+    left: 88.5%;
+  }
+  .user{
+    position: absolute;
+    top: 15px;
+    left: 95%;
+    
+  }
+  .userConnected:hover{
+    background-color: #000000;
+    color: white;
+    transform: scale(1.2);
+  }
+    
+#navbar ul li{
+    background-color: #F5F5F5;
+    list-style:none;
+    font-size:18px;
+    width:14.285%;
+    height:84.6px;
+    text-align:center;
+    float:left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: #F5F5F5;
+    position:relative;
+    bottom: 50px;
+}
+      
+      
+.end_page{
+    background-color: #F5F5F5;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    cursor:pointer;
+    color: #050000;
+    text-decoration: none;
+}
+
+.logo{
+    font-weight: bold;
+    text-decoration: none;
+    float:left;
+}
+
+.Hero .headline {
+    font-size: 50px;
+    word-spacing: 8px;
+    margin:50px;
+}
+
+.Hero .writer{
+    
+    word-spacing: 8px;
+    margin:50px;
+    position: relative;
+    bottom: 40px;
+}
+         
+.banner{
+    position:relative;
+    bottom: 60px;
+}
+
+.article{
+    font-size:20px;
+    margin: 20px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+  
+
+.jedi1 .para {
+   position:relative;
+   bottom: 20px;
+   padding: 0 80px 0 0;
+}
+
+.Finale{
+    position:relative;
+    top: 20px;
+}
+
+.White_Container{
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin: 40px 150px 40px 150px;
+    padding:60px 0 0 100px;
+}
+
+.White_Container td{
+    width: 15%;
+}
+
+.White_Container .reduced h4{
+    background-color: #C90A0A;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin: 0 30px 0 30px; 
+}
+
+.White_Container .cases{
+    margin-left:50px;
+    padding-left: 80px;
+}
+
+.White_Container .view{
+    background-color: #00E709;
+    text-align: center;   
+    padding: 20px 80px 20px 80px;   
+    color:#FFFFFF;
+}
+
+.White_Container h4{
+    color:#FFFFFF;
+}
+
+.prices{
+    padding: 50px 0 50px 0;
+    border-collapse: separate;
+    border-spacing: 40px 0 40px 0;
+
+}
+
+.White_Container .old{
+    color:#908B8B;
+    text-decoration-line: line-through;
+    font-weight: lighter;
+}
+
+
+.White_Container .new{
+    color:#009006;
+    font-size: 20px;
+    font-weight:bolder;
+}
+
+.White_Container .Deals{
+    color: #050000 ;
+    margin: 0 0 40px 40px;
+    padding: 0 0 40px 40px;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.end p{
+    font-size:20px;
+    color: #958D8D;
+    position: relative;
+    right:55px;
+}
+  
+.end a{
+    font-size:15px;
+    
+    color: #958D8D;
+} 
+
+.end{
+    width:100%;
+    padding-bottom: 20px;
+}
+
+.end td{
+    padding-left:50px;
+}
+
+.Copyright{
+    color: #958D8D;
+    text-align: center;
+}
+
+.Platforms{
+    position:relative;
+    top: 21px;
+}
+
+
+.footer{
+    position: absolute;
+    background-color: #1f1e1e;
+    color: white;
+    width: 100%;
+    height: 300px;
+    left: 0;
+    top: 3300px;
+  
+  }
+  
+  .plateforme{
+    position: absolute;
+    left: 6%;
+    top: 70px;    
+  
+  }
+  li{
+    margin: 10px 0 10px 0;
+    list-style-type: none;
+    font-family: 'Century Gothic';
+    font-weight: 900;
+    font-size: 13px;
+  }
+  
+  .plateformeT{
+    position: absolute;
+    bottom: 210px;
+    font-family: 'Century Gothic';
+    font-weight: 900;
+    color: white;
+  }
+  .socialMedia{
+    position: absolute;
+    left: 26%;
+    top: 70px;
+  }
+  .socialMediaT{
+    position: absolute;
+    bottom: 160px;
+    font-family: 'Century Gothic';
+    width: 150px;
+    font-weight: 900;
+    color: white;
+  }
+  .GBOX{
+    
+      position: absolute;
+      left: 47.4%;
+      top: 70px;
+    
+  }
+  .termPrivacy{
+    position: absolute;
+    left: 67%;
+    top: 50px;
+  }
+  .GBOXT{
+    position: absolute;
+    bottom: 110px;
+    font-family: 'Century Gothic';
+    width: 150px;
+    font-weight: 900;
+    color: white;;
+  }
+  
+  .aFooter{
+    text-decoration: none;
+    color: #958D8D;
+    transition: all .2s;
+  }
+  .aFooter:hover{
+  background-color: white;
+  color: black;
+  }
+  
+  .privacy{
+  position: absolute;
+  top: 475px;
+  width: 300px;
+  color: #E5E5E1;
+  left: 820px;
+  font-family: 'Century Gothic';
+  font-weight: 900;
+  font-size: 14px;
+  
+  }
+  .terms{
+  color: #1887DD;
+  text-decoration: none;
+  }
+  

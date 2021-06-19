@@ -24,17 +24,20 @@ foreach($data as $row){
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Fira+Mono:wght@700&family=Francois+One&display=swap" rel="stylesheet"> 
-    <body>
+        <link rel="icon" " href="../photo/control.png">
+</head>
+        <body>
        
             <div class="navBar">
                
                 <nav>
-                    <img src="control.jpg" height="50" width="55" style="right: 14;">
+                <img src="../photo/control.png" style="position: relative; bottom: 5px; left: 10px;" width="55" height="50">
                     <p class ="home">GBOX</p>
                     <ul class="nav_ul">
-                        <li class ="nav_li"><a href="#" class="nav_a">News</a></li>
-                        <li class ="nav_li"><a href="#" class="nav_a">Best Selling</a></li>
-                        <li class ="nav_li"><a href="#" class="nav_a">Videos</a></li>
+                    <li class ="nav_li"><a href="../home/main.php#news" class="nav_a">News</a></li>
+                     
+                     <li class ="nav_li"><a href="../best selling/bestSelling.php" class="nav_a">Best Selling</a></li>
+                     <li class ="nav_li"><a href="../video/video.php" class="nav_a">Videos</a></li>
                     </ul>
                 </nav>
                 <?php include '../infopers/user.php'; ?>
@@ -57,8 +60,11 @@ foreach($data as $row){
                         <input type="password" name="newPassword" placeholder="New Password">
                 </div>
                 <input type="submit" name="change" value="Change" class="change-btn">
+                <input type="submit" name="logout" value="Log-Out" class="logout">
+                <input type="submit" name="delete" value="Delete" class="delete">
+
                 </form>
-                <a href="/authlogin/logout.php" class="logout">Log-Out</a>
+
                 <footer>
                                 <div class="footer">
                                   <ul class="plateforme"><span class="plateformeT">Plateforme</span>

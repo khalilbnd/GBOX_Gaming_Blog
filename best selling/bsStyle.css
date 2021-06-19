@@ -32,7 +32,7 @@ color: #000000;
     display: inline; 
     position: relative; 
     margin: 0 120px 0 120px;
-    bottom: 55px;
+    bottom: 40px;
     left: 250px;
   }
   .nav_a{
@@ -59,6 +59,35 @@ color: #000000;
     width: 100%; 
     left: 0;
     right: 0;
+  }
+  .userConnected{
+    position: absolute;
+    top: 9px;
+    left: 88%;
+    font-family: 'Fira Code', monospace;
+    font-size: 12px;
+    padding: 10px 10px 10px 40px;
+    border-radius: 15px;
+    outline: none;
+    border: transparent;
+    transition: all .2s;
+  }
+  
+  .userImg{
+    position: absolute;
+    top: 15px;
+    left: 88.5%;
+  }
+  .user{
+    position: absolute;
+    top: 15px;
+    left: 95%;
+    
+  }
+  .userConnected:hover{
+    background-color: #000000;
+    color: white;
+    transform: scale(1.2);
   }
   .Introduction{
       width: 1000px;
